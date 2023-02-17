@@ -1,0 +1,9 @@
+version: '3' 
+ 
+services: 
+  web: 
+    image: app
+    build: . 
+    container_name: site 
+    ports: 
+      - "8080:80"
